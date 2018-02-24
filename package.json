@@ -1,0 +1,17 @@
+{
+  "name": "node-cluster-client",
+  "version": "1.0.0",
+  "description": "nodejs cluster client based on node-ipc and proxy",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rm -rf ./dist && tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-ipc": "^9.1.1"
+  }
+}
