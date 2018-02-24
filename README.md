@@ -1,7 +1,7 @@
 ```javascript
 import * as os from 'os'
 import * as cluster from 'cluster'
-import ClusterClient from 'cluster-client'
+import ClusterClient from 'node-cluster-client'
 
 const forkNum = os.cpus().length <= 3 ? 3 : os.cpus().length
     if (cluster.isMaster) {
